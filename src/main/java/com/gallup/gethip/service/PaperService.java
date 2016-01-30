@@ -56,6 +56,7 @@ public class PaperService {
 		return papersForYear;
 	}
 
+	// This will read all pages in the database from the start to the start + size element
 	public List<Paper> readAllPapersPaginated(int start, int size) {
 		List<Paper> list = null;
 		try {
